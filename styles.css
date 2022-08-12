@@ -1,0 +1,30 @@
+.header {
+    background-image: url("img/banner.jpg");
+    height: 100%;
+}
+
+.infobanner {
+    height: 800px;
+    padding: 160px 0px 0px 150px;
+    max-width: 40%;
+}
+
+h1 {
+    font-size: 65px;
+    font-weight: 900;
+}
+
+.imput {
+    margin: 0px 0px 10px 0px;
+}
+
+.masinfo {
+    background-color: rgba(255, 255, 255, 0.562);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.btn-primary {
+    width: 200px;
+    margin: 20px 0px 0px 0px;
+}
