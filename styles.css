@@ -150,3 +150,61 @@
     }
 
   }
+
+  
+
+
+  /* SERVICIOS */
+  h2{
+    font-weight: 900;
+    color: #271D4F;
+  }
+  .servicios_caja{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .card{
+    margin: 10px;
+    border-radius: 20px;
+    background-color: #271D4F;
+    color: white;
+  }
+
+  h5{
+    font-weight: 900;
+    color: #271D4F;
+  }
+
+.btn {
+    justify-content: center;
+}
+
+  .btn-primary{
+    border: none;
+    float: none;
+  }
+
+
+  
+
+  .card-img-top {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-top: 30px;
+  }
+  
+  img {
+    display: inline;
+    margin: 0 auto;
+    height: 100%;
+    width: auto;
+  }
+
+
+  
