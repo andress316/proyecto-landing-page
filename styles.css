@@ -337,3 +337,51 @@
 
  
 
+/* FOOTER */
+@media only screen and (min-width: 100px) {
+  .footer_background { 
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .footer_background { 
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.footer_background{
+  background-color: #271D4F;
+  margin-top: 150px;
+  display: grid;
+  gap: 5em;
+  padding-top: 50px;
+  padding-left: 10%;
+  padding-right: 10%;
+  
+
+}
+
+
+.social {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  color: white;
+  font-size: 50px;
+  margin-top: 50px;
+  gap: 0;
+}
+
+.info_footer{
+  max-width: 400px;
+  margin-bottom: 50px;
+  background-color: #1b1338;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+
+
+
+
+
