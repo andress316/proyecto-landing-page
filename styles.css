@@ -1,5 +1,7 @@
-/* RESPONSIVE HEADER BACKGROUND */
 
+
+
+/* RESPONSIVE HEADER BACKGROUND */
 .header {
     background-repeat: no-repeat;
   }
@@ -26,6 +28,10 @@
   @media only screen and (min-width: 1500px) {
     .header { 
        background-image: url('img/banner-04.jpg'); 
+    }
+    .container-fluid{
+      min-height: 70px;
+      padding: 0px 100px 0px 70px;
     }
   }
 
@@ -245,6 +251,44 @@
 
 
 
+/* PROCESO */
+
+@media only screen and (min-width: 100px) {
+  .contenedor_proceso { 
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+  }
+}
+
+@media only screen and (min-width: 400px) {
+  .contenedor_proceso { 
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
 
 
+@media only screen and (min-width: 1500px) {
+  .contenedor_proceso { 
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.contenedor_proceso{
+  background-image: url(img/backgroun-prceso.jpg);
+  display: grid;
+  column-gap: 3em;
+  height: auto;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+
+.item_proceso {
+  display: inline-block;
+  max-width: 300px;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  text-align: center;
+
+}
   
