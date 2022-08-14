@@ -284,11 +284,56 @@
 
 
 .item_proceso {
-  display: inline-block;
   max-width: 300px;
   margin-top: 70px;
   margin-bottom: 70px;
   text-align: center;
-
 }
   
+
+
+
+/* NOSOTROS */
+
+.img_nosotros{
+  width: 100%;
+  height: auto;
+}
+
+
+@media only screen and (min-width: 100px) {
+  .contenedor_nosotros { 
+    grid-template-columns: 1fr;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  .contenedor_nosotros { 
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.contenedor_nosotros {
+  display: grid;
+  margin-top: 150px;
+  gap: 3em;
+}
+
+.item_nosotros {
+  padding-right: 10%;
+  padding-left: 10%;
+  margin-bottom: 50px;
+  }
+
+  @media only screen and (min-width: 100px) {
+    .logos_nosotros { 
+      width: 150px;
+      height: auto;
+      margin-top: 30px;
+      float: inline-end;
+      margin-right: 50px;
+    }
+  }
+
+ 
+
