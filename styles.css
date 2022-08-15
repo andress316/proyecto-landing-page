@@ -9,11 +9,10 @@
   @media only screen and (min-width: 100px) {
     .header { 
        background-image: url('img/banner-01.jpg');
-       background: cover; 
     }
   }
 
-  @media only screen and (min-width: 300px) {
+  @media only screen and (min-width: 500px) {
     .header { 
        background-image: url('img/banner-02.jpg'); 
     }
@@ -41,7 +40,9 @@
 @media only screen and (min-width: 100px) {
     .infobanner { 
         height: auto;
-        padding: 150px 0px 0px 10px;
+        padding-top: 100px;
+        padding-left: 10%;
+        padding-right: 10%;
         max-width: 100%; 
     }
 
@@ -72,8 +73,7 @@
   @media only screen and (min-width: 400px) {
     .infobanner { 
         height: auto;
-        padding: 100px 0px 30px 50px;
-        max-width: 50%; 
+        max-width: 60%; 
     }
 
     h1 {
@@ -89,7 +89,7 @@
         background-color: rgba(255, 255, 255, 0.562);
         padding: 30px;
         border-radius: 10px;
-        margin-bottom: 50px;
+        margin-bottom: 100px;
     }
 
     .btn-primary {
@@ -118,7 +118,7 @@
         background-color: rgba(255, 255, 255, 0.562);
         padding: 30px;
         border-radius: 10px;
-        margin-bottom: 50px;
+        margin-bottom: 100px;
     }
 
     .btn-primary {
